@@ -1,0 +1,23 @@
+{% extends "basenoticia.html" %}
+
+{%load static%}
+
+{% block titulo %}
+Caos News: Noticia del tren
+{% endblock titulo %}
+    
+{% block contenido %}
+    <h1>Tren no choca con nada ultimamente</h1>
+    <div id="pagina">
+        <div id="elementos">
+        <a href="{% static 'img/noticias/Tren-Stgo-Chillan.jpg' %}" data-lightbox="Noticia">
+          <img src="{% static 'img/noticias/Tren-Stgo-Chillan.jpg' %}" alt="noticia 1">
+        </a>
+        </div>
+        <div id="elementos">
+            <h3>Con absolutamente nada...</h3>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi laboriosam pariatur saepe. Reiciendis vitae modi a corporis. Molestiae porro eaque id laborum in? Doloremque vero unde dolor quos asperiores inventore?
+            Autem blanditiis provident dicta, aliquam laborum odit illo mollitia dolorum excepturi unde praesentium, ipsa odio sed in totam incidunt dolore explicabo reprehenderit, expedita nisi? Aut corrupti ut saepe voluptatum culpa.
+        </div>
+    </div>
+{% endblock contenido %}

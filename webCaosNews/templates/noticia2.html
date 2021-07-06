@@ -1,0 +1,23 @@
+{% extends "basenoticia.html" %}
+
+{%load static%}
+
+{% block titulo %}
+Caos News: Noticia de la Silueta
+{% endblock titulo %}
+    
+{% block contenido %}
+    <h1>Silueta levanta las manos vigorosamente</h1>
+    <div id="pagina">
+        <div id="elementos">
+        <a href="{% static 'img/noticias/politico.jpg' %}" data-lightbox="Noticia">
+          <img src="{% static 'img/noticias/politico.jpg' %}" alt="noticia 2">
+        </a>
+        </div>
+        <div id="elementos">
+            <h3>Se le nota bastante exaltado...</h3>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi laboriosam pariatur saepe. Reiciendis vitae modi a corporis. Molestiae porro eaque id laborum in? Doloremque vero unde dolor quos asperiores inventore?
+            Autem blanditiis provident dicta, aliquam laborum odit illo mollitia dolorum excepturi unde praesentium, ipsa odio sed in totam incidunt dolore explicabo reprehenderit, expedita nisi? Aut corrupti ut saepe voluptatum culpa.
+        </div>
+    </div>
+{% endblock contenido %}
